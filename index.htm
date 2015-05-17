@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKgZG0VNOhj0DKj0MKBJXaDmieqyJuY5w">         </script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="title-bar">
+            <div class="logos">
+                TimeLines
+            </div>
+            <div class="nav-bar"></div>
+            <div class="selection">
+                <form>
+                    <input type="text" name="search" placeholder="search" size="45"/>
+                    <input type="submit" value="search">
+                    <br />
+                    <select name="who" class="topic-finder">
+                        <option>who</option>
+                    </select>
+                    <select name="what" class="topic-finder">
+                        <option>what</option>
+                    </select>
+                    <select name="where" class="topic-finder">
+                        <option>where</option>
+                    </select>
+                    <select name="when" class="topic-finder">
+                        <option>when</option>
+                    </select>
+                    <select name="why" class="topic-finder">
+                        <option>why</option>
+                    </select>
+                    <select name="how" class="topic-finder">
+                        <option>how</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div id="map-canvas"></div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 15;
+}
+
+/*google maps div itself*/
+#map-canvas {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+#title-bar {
+    height: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.selection {
+    text-align: center;
+}
+
+.logos {
+    margin: 0;
+    padding: 15px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
